@@ -61,6 +61,7 @@ h2 {
     margin: 15px;
     color: white;
     float: left;
+    box-shadow: 1px 1px 6px 0px #888888;
 }
 
 .column > img {
