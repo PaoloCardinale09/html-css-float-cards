@@ -8,6 +8,8 @@
 
 img {
     max-width: 100%;
+    
+    
 }
 
 /* Utils */
@@ -22,3 +24,56 @@ img {
     clear: both;
     display: table;
 }
+
+/* Generics */
+
+body {
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+ a {
+    text-decoration: none;
+    color: #4cbcf1;
+    font-size: 12px;
+ }
+
+h1 {
+    text-align: center;
+    color: #e53170;
+    margin: 3rem 0;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+.intro {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.column {
+    width: calc(100% / 3 - 30px);
+    height: 80px;
+    background-color: #0f0e17;
+    margin: 15px;
+    color: white;
+    float: left;
+}
+
+.column > img {
+    float: left;
+    max-height: 100%;
+    
+}
+ .ruolo {
+    color: #e5e7ea;
+    font-size: 12px;
+ }
+
+ .testo {
+    padding: 15px;
+    display: inline-block;
+ }
