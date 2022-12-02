@@ -67,6 +67,7 @@ h2 {
 .column > img {
     float: left;
     max-height: 100%;
+    margin-right: 10px;
     
 }
  .ruolo {
@@ -75,6 +76,7 @@ h2 {
  }
 
  .testo {
-    padding: 15px;
-    display: inline-block;
+    line-height: 26px;
+    margin-left: 10px;
+}
  }
