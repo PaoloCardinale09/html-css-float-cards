@@ -6,11 +6,7 @@
     box-sizing: border-box;
 }
 
-img {
-    max-width: 100%;
-    
-    
-}
+
 
 /* Utils */
 
@@ -55,28 +51,20 @@ h2 {
 }
 
 .column {
-    width: calc(100% / 3 - 30px);
-    height: 80px;
-    background-color: #0f0e17;
-    margin: 15px;
+    display: flex;
+    background-color: black;
     color: white;
-    float: left;
-    box-shadow: 1px 1px 6px 0px #888888;
+    height: 100px;
+    width: calc(100% / 3 - 40px);
+    margin:  20px;
 }
 
-.column > img {
-    float: left;
-    max-height: 100%;
-    margin-right: 10px;
-    
+.testo {
+    align-self: center;
+    margin: 30px;
 }
- .ruolo {
-    color: #e5e7ea;
-    font-size: 12px;
- }
 
- .testo {
-    line-height: 26px;
-    margin-left: 10px;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
- }
